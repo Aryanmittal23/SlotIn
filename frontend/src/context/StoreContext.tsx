@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { createContext } from 'react'
+import {item_list} from '../assets/assets'
 
-function StoreContext() {
+export const StoreContext =createContext(null)
+
+export function StoreContextProvider(props){
+
+  const contextvalue={
+    item_list
+  }
   return (
-    <div>
-      
-    </div>
+    <StoreContext.Provider value={contextvalue}>
+      {props.children}
+    </StoreContext.Provider>
   )
 }
 
