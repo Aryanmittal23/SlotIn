@@ -1,0 +1,42 @@
+.shop-display{
+    margin-top: 30px;
+}
+.shop-display h2{
+    font-size:max(2vw,24px);
+    font-weight: 600;
+}
+.shop-display-list{
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 10px;
+    overflow: scroll;
+    
+}
+.shop-display-list::-webkit-scrollbar{
+    display:none;
+}
+.about{
+    display: flex;
+    margin: 90px;
+    gap: 100px;
+}
+.about h2{
+    padding-top: 60px;
+}
+.about p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.about img{
+    width: fit-content;
+}
+@media (max-width:1050) {
+    .about{
+        width: fit-content;
+    }
+    .about img{
+        displa:to
+        
+    }
+}

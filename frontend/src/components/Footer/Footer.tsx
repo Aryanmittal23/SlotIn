@@ -30,12 +30,12 @@ function Footer() {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>91+ 810903174</li>
-                    <li>conatct@foody.com</li>
+                    <li>conatct@SlotIn.com</li>
                 </ul>
             </div>
         </div> 
         <hr />
-        <p className="footer-copyright">Copyright © 2024 Foody.com - All Rights Reserved.</p>
+        <p className="footer-copyright">Copyright © 2024 SlotIn.com - All Rights Reserved.</p>
     </div>
   )
 }
