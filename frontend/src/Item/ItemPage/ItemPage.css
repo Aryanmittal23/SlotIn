@@ -1,0 +1,18 @@
+.item-page {
+    width: 80%;
+    margin: 30px 100px;
+    padding: 20px;
+    
+    
+  }
+  .content{
+    display: flex;
+    gap: 300px;
+  }
+.content p{
+    width: 400px;
+}
+.item-social-icons{
+    cursor: pointer;
+    
+}
