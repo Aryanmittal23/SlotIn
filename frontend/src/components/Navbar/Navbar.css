@@ -18,7 +18,7 @@
 .navbar-right{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 5px;
 }
 .navbar button{
     background: transparent;
