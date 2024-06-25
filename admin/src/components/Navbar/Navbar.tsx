@@ -6,7 +6,9 @@ function Navbar() {
   <div>
     <div className='navbar'>
         <img className='logo' src={assets.logo} alt="" />
-        <img className='profile' src={assets.profile_image} alt="" />
+        <button className='register-btn'>Register your Business</button>
+        <img className='profile' src={assets.profile_image} alt=""  />
+        
     </div>
     <hr />
   </div> 

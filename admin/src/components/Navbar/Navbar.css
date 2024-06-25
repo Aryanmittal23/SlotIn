@@ -1,12 +1,30 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 8px 4%;
+    padding: 0px 3%;
     align-items: center;
 }
 .navbar .logo{
-    width:130px;
+    width:150px;
+    cursor: pointer;
 }
 .navbar .profile{
-    width: 40px;
+    width: 60px;
+    border: solid 2px black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    
+.navbar .register-btn{
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar button{
+    color: white;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color:lightslategray;
 }
