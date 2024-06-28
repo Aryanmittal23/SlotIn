@@ -1,0 +1,221 @@
+
+        html{
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #313131;
+            color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 650;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 100px 20px;
+            
+        }
+        .hero p{
+            animation: mymove 5s infinite;
+        }
+        @keyframes mymove {
+            from {color: rgb(159, 3, 3);}
+            to {color: blue;}
+          }
+
+        .hero-content {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #313131;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover{
+            background-color: #000;
+        }
+
+        .app-download {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .app-download .download-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .app-download img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .features {
+            background: #f4f4f4;
+            padding: 40px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .container h2{
+            margin-top: 35px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .container p{
+            font-size: 20px;
+            margin-top: 35px;
+            color: #0545ad;
+        }
+        .container li{
+            font-size: 20px;
+        }
+
+        .feature {
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .how-it-helps {
+            background: #fff;
+            padding: 40px 20px;
+        }
+
+        .how-it-helps h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .how-it-helps ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        .how-it-works {
+            background: #fff;
+            padding: 40px 20px;
+        }
+
+        .how-it-works h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .step {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .step img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .step:hover{
+            background-color: #eaeaea;
+            transition-duration: 0.5s;
+        }
+
+        .testimonial {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonial h2 {
+            margin-bottom: 20px;
+        }
+
+        .testimonial-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        blockquote {
+            background: #f9f9f9;
+            padding: 20px;
+            border-left: 5px solid #007BFF;
+            margin: 0;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        
+
+        

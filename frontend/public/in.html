@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Dashboard</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside>
+            <ul>
+                <li><a href="#">Dashboard Overview</a></li>
+                <li><a href="#">Appointments</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Reports/Analytics</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section class="dashboard-overview">
+                <h2>Dashboard Overview</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>Total Appointments</h3>
+                        <p>120</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Upcoming Appointments</h3>
+                        <p>10</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Total Customers</h3>
+                        <p>85</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Earnings</h3>
+                        <p>$3,500</p>
+                    </div>
+                </div>
+                <div class="recent-activity">
+                    <h3>Recent Activity</h3>
+                    <!-- Recent bookings and interactions -->
+                </div>
+            </section>
+
+            <section class="appointments">
+                <h2>Appointments</h2>
+                <div class="appointments-list">
+                    <h3>Upcoming Appointments</h3>
+                    <ul>
+                        <li>Customer: John Doe | Service: Haircut | Date: 2024-06-10 | Time: 10:00 AM</li>
+                        <li>Customer: Jane Smith | Service: Massage | Date: 2024-06-11 | Time: 1:00 PM</li>
+                        <!-- More appointments -->
+                    </ul>
+
+                    <h3>Past Appointments</h3>
+                    <ul>
+                        <li>Customer: Bob Brown | Service: Physiotherapy | Date: 2024-06-01 | Time: 2:00 PM</li>
+                        <li>Customer: Alice Johnson | Service: Facial | Date: 2024-06-03 | Time: 3:00 PM</li>
+                        <!-- More past appointments -->
+                    </ul>
+
+                    <h3>Appointment Requests</h3>
+                    <ul>
+                        <li>Customer: Mark Wilson | Service: Pedicure | Date: 2024-06-12 | Time:
+                            11:00 AM (Pending)</li>
+                        <!-- More requests -->
+                    </ul>
+                </div>
+            </section>
+
+            <section class="services">
+                <h2>Services</h2>
+                <div class="services-list">
+                    <h3>Your Services</h3>
+                    <ul>
+                        <li>Haircut - $30</li>
+                        <li>Massage - $50</li>
+                        <!-- More services -->
+                    </ul>
+                    <button>Add New Service</button>
+                </div>
+            </section>
+
+            <section class="calendar">
+                <h2>Calendar</h2>
+                <!-- Calendar component to view appointments by day, week, or month -->
+            </section>
+
+            <section class="customers">
+                <h2>Customers</h2>
+                <div class="customer-list">
+                    <h3>Customer Profiles</h3>
+                    <ul>
+                        <li>John Doe - johndoe@example.com</li>
+                        <li>Jane Smith - janesmith@example.com</li>
+                        <!-- More customers -->
+                    </ul>
+                </div>
+            </section>
+
+            <section class="analytics-reports">
+                <h2>Analytics & Reports</h2>
+                <!-- Charts and data on appointments, revenue, customer insights -->
+            </section>
+
+            <section class="profile-settings">
+                <h2>Profile Settings</h2>
+                <!-- Form to update profile information -->
+            </section>
+
+            <section class="help">
+                <h2>Help</h2>
+                <!-- FAQs, contact support, tutorials -->
+            </section>
+        </main>
+    </div>
+
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #313131; }
+        .logo { font-size: 1.5em; font-weight: bold; }
+        nav ul { list-style: none; display: flex; gap: 15px; }
+        nav a { text-decoration: none; color: #ffffff; }
+        .search-bar input { padding: 5px; font-size: 1em; }
+        .container { display: flex; }
+        aside { width: 200px; background: #f8f8f8; padding: 20px; }
+        aside ul { list-style: none; padding: 0; }
+        aside a { text-decoration: none; color: #333; display: block; padding: 10px 0; }
+        main { flex-grow: 1; padding: 20px; }
+        section { margin-bottom: 20px; }
+        h2 { margin-top: 0; }
+        .stats { display: flex; justify-content: space-around; }
+        .stat { text-align: center; }
+        .appointments-list, .services-list, .customer-list { margin: 20px 0; }
+        .appointments-list ul, .services-list ul, .customer-list ul { list-style: none; padding: 0; }
+        button { padding: 10px 20px; font-size: 1em; cursor: pointer; border: none; background: #313131;; color: white; border-radius: 5px; }
+        button:hover { background: #000000; }
+    </style>
+</body>
+</html>
+

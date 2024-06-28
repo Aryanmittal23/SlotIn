@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from "./components/Navbar/Navbar";
 import { Routes,Route} from 'react-router-dom';
 import Home from './pages/Home/Home';
-//import PlaceOrder from './pages/PlaceOrder/PlaceOrder';
+// import PlaceOrder from './pages/PlaceOrder/PlaceOrder';
 import Footer from './components/Footer/Footer';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import ItemPage from './Item/ItemPage/ItemPage';
