@@ -3,6 +3,7 @@ import ProductDetails from '../ProductDetails/ProductDetails';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Reviews from '../Reviews/Reviews';
 //import AddToCartButton from './AddToCartButton';
+import { Link } from 'react-router-dom';
 import assets from '../../assets/assets'
 import './ItemPage.css'
 const ItemPage = () => {
@@ -33,7 +34,7 @@ const ItemPage = () => {
         <hr />
         <p>single haircut</p>
         <p>this service is just haircut whatever you want</p>
-        <button>Book</button>
+        <Link to="/DatePicker"><button>Book</button></Link>
         <ProductDetails price={product.price}/>
         <Reviews reviews={product.reviews} />
         </div>

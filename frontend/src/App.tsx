@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import ItemPage from './Item/ItemPage/ItemPage';
 import ListYourBusiness from './pages/ListYourBusiness/ListYourBusiness';
+import { DatePicker } from '@mantine/dates';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/ListYourBusiness' element={<ListYourBusiness/>} />
         <Route path='/order' element={<PlaceOrder/>}/>
-        <Route path="/itempage" element={<ItemPage />} />
+        <Route path="/itempage" element={<ItemPage />} />\
+        <Route path='/datepicker' element={<DatePicker/>} />
       </Routes>
     </div>
     <Footer/>
