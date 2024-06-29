@@ -1,5 +1,4 @@
 .hero {
-    
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 100px 20px;
@@ -22,13 +21,13 @@
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #313131;
+    background: #141414;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 .cta-button:hover{
-    background-color: #000;
+    background-color: grey;
 }
 
 .app-downloadss {

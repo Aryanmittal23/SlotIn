@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
+import LoginPopup from '../../components/LoginPopup/LoginPopup'
 function Home() {
+  const [showLogin,setShowLogin]=useState(false)
   return (
-    <div>
-        <Navbar />
+    <>
+    {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
+    <div >
+      <Navbar setShowLogin={setShowLogin} />
       <Header />
       <Footer />
     </div>
+    </>
   )
 }
 
