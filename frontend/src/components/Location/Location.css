@@ -5,6 +5,8 @@
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #141414;
+    color: white;
 }
 .location-card button:hover{
     background-color:grey;

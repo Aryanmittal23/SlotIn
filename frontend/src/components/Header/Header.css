@@ -20,7 +20,7 @@
     animation: fadeIn 3s;
 }
 .header-contents button:hover{
-    background-color:black;
+    background-color:grey;
     
 }
 .header-contents h2{
@@ -39,9 +39,9 @@
     color:white;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background-color:#323232;
+    background-color:#141414;
     font-size: max(1vw,13px);
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     margin-left:30px;
 }
