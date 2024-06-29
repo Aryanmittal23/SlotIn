@@ -8,7 +8,7 @@ import Location from '../../components/Location/Location'
 function Home() {
   const [category,setCategory]=useState("All")
   return (
-    <div>
+    <div >
       <Header />
       <ExploreMenu category={category} setCategory={setCategory}/>
       <Recommend category={category}/>

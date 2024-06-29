@@ -4,19 +4,7 @@ import images from "../../images/images"
 function ListYourBusiness() {
   return (
     <div>
-      <header >
-          <div >Slot In</div>
-          <nav>
-            <ul className="flex space-x-4">
-              <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="in.html" className="hover:underline">Dashboard</a></li>
-              <li><a href="/" className="hover:underline">Profile</a></li>
-              <li><a href="/" className="hover:underline">Help</a></li>
-              <li><a href="/" className="hover:underline">Logout</a></li>
-            </ul>
-          </nav>
-        
-      </header>
+      
 
       <section className="hero bg-blue-600 text-white text-center p-10">
         <div className="hero-content">
@@ -105,6 +93,7 @@ function ListYourBusiness() {
               <p className="text-xl">"With Slot In, we have seen a significant improvement in customer satisfaction."</p>
               <footer className="mt-2">— John Smith, Physiotherapist</footer>
             </blockquote>
+            <li><a href="in.html" className="hover:underline">Dashboard</a></li>
           </div>
         </div>
       </section>
