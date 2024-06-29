@@ -5,8 +5,10 @@ import AppDownload from '../../components/AppDownload/AppDownload'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import Recommend from '../../components/Recommend/Recommend'
 import Location from '../../components/Location/Location'
+
 function Home() {
   const [category,setCategory]=useState("All")
+
   return (
     <div >
       <Header />
