@@ -1,18 +1,30 @@
 import React from 'react';
-import './Review.css'
-const Reviews = ({ reviews }) => {
+import './Review.css'; // Import custom CSS for styling
+
+const Review = ({ reviews }) => {
   return (
     <div className="reviews">
       <h2>Customer Reviews</h2>
-      {reviews.map(review => (
-        <div key={review.id} className="review">
-          <h3>{review.user}</h3>
-          <p>{review.comment}</p>
-          <p>Rating: {review.rating} / 5</p>
-        </div>
-      ))}
+      <table className="reviews-table">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Comment</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          {reviews.map((review) => (
+            <tr key={review.id}>
+              <td>{review.user}</td>
+              <td>{review.comment}</td>
+              <td>{review.rating}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
 
-export default Reviews;
+export default Review;
