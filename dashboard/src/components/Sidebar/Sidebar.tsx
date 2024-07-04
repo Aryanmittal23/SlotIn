@@ -12,7 +12,7 @@ function Sidebar() {
         </span>
         <p>Dashboard</p>
     </NavLink>
-    <NavLink to='/list' className="sidebar-option">
+    <NavLink to='/appointments' className="sidebar-option">
     <span className="material-symbols-outlined">
     book_online
       </span>
@@ -24,7 +24,7 @@ function Sidebar() {
     </span>
     <p>Add Services</p>
 </NavLink>
-<NavLink to='/Customers' className="sidebar-option">
+<NavLink to='/customers' className="sidebar-option">
       <span className="material-symbols-outlined">
       supervisor_account
         </span>
@@ -42,7 +42,7 @@ function Sidebar() {
     </span>
     <p>Setting</p>
     </NavLink>
-  <NavLink to='/Help' className="sidebar-option">
+  <NavLink to='/help' className="sidebar-option">
   <span className="material-symbols-outlined">
   support_agent
     </span>
