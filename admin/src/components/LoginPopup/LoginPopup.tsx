@@ -15,6 +15,7 @@ function LoginPopup({setShowLogin}) {
         <div className="login-popup-inputs">
             {currState==="Login"? <></>:
             <input type="text" placeholder='Your name' required />}
+
             <input type="email" placeholder='username or email' required />
             <input type="password" placeholder='Password' required />
         </div>
