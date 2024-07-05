@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import ProductDetails from '../ProductDetails/ProductDetails';
 import ImageGallery from '../ImageGallery/ImageGallery';
